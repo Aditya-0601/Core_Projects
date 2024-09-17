@@ -24,10 +24,7 @@ void removeDuplicates(char *str) {
 }
 
 int main() {
-    char str[100];
-    printf("Enter the Word");
-    fgets(str,str[100],stdin);
-
+    char str[]={"Hello to minecraft"};
     removeDuplicates(str);
 
     printf("Word after removing duplicates: %s\n", str);
